@@ -1,14 +1,24 @@
 {
   "name": "demotest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.5"
-  }
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.50.1",
+    "playwright-core": "^1.50.1",
+    "undici-types": "^6.20.0"
+  },
+  "description": ""
 }
